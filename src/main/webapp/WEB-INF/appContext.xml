@@ -26,11 +26,11 @@
   <tx:annotation-driven />
 
   <bean id="dataSource" class="org.postgresql.ds.PGPoolingDataSource" destroy-method="close">
-    <property name="serverName" value="localhost" />
-    <property name="databaseName" value="veazy_system" />
+    <property name="serverName" value="ec2-54-243-208-3.compute-1.amazonaws.com" />
+    <property name="databaseName" value="d2q21uutsjf0b" />
     <property name="portNumber" value="5432" />
-    <property name="user" value="veazy" />
-    <property name="password" value="veazy" />
+    <property name="user" value="oqpljkyrlxlkrx" />
+    <property name="password" value="l9mEot14PhHEy_eFPvhHFXDsdb" />
   </bean>
 
   <bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
